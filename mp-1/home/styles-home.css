@@ -1,0 +1,11 @@
+#about-picture {
+    max-width: 400px;
+    border: double 5px #49b385;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 750px) {
+    #about-picture {
+        margin: auto;
+    }
+}
