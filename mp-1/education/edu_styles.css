@@ -1,0 +1,30 @@
+#education-main {
+    padding: 4vw;
+    width: 70%;
+}
+
+#education-main p {
+    font-size: calc(3px + 1vw);
+}
+
+.schools {
+    padding-bottom: 3vw;
+}
+
+.schools h4 {
+    padding-bottom: 1vw;
+}
+
+#relevant-coursework p {
+    padding-bottom: 2vw;
+}
+
+@media screen and (max-width: 900px) {
+    #education-main {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,42 @@
+#document-main {
+    padding: 4vw;
+    width: 70%;
+}
+
+#document-main p {
+    font-size: calc(1px + 1vw);
+}
+
+
+#document-main ul {
+    list-style: none;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+}
+
+#document-main li {
+    padding-top: 1vw;
+}
+
+#document-main h2 {
+    padding-bottom: 1vw;
+}
+
+#document-main img {
+    max-width: 600px;
+    border: double 5px #49b385;
+    border-radius: 10%;
+}
+
+img {
+    width: 95%;
+}
+
+@media screen and (max-width: 900px) {
+    #document-main {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-bottom: 1vw;
+}
+
+#page-wrapper {
+    padding: 3vw;
+}
+
+#main-content, #error-content {
+    visibility: hidden;
+}
+
+#error-message {
+    color: red;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 20%;
+    margin-top: 2vw;
+}

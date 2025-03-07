@@ -1,0 +1,23 @@
+#skills-main {
+    padding: 4vw;
+    width: 70%;
+}
+
+#skills-main p {
+    font-size: calc(1px + 1vw);
+}
+
+#skills-main ul {
+    list-style: inside;
+    padding-bottom: 2vw;
+}
+
+@media screen and (max-width: 900px) {
+    #skills-main {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
